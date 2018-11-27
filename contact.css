@@ -27,32 +27,16 @@ header{
     margin-left: 373px;
     float: left;
 }
-#about{
+#links{
     font-size: 18px;
     background-color: white;
     border-right: solid rgb(199, 198, 198);
     color: #4aaaa5;
-    width: 6%;
+    width: 40%;
     margin-top: 33px;
     float: right;
 }
-#portfolio{
-    font-size: 18px;
-    background-color: white;
-    border-right: solid rgb(199, 198, 198);
-    color: #4aaaa5;
-    width: 6%;
-    margin-top: 33px;
-    float: right;
-}
-#contact{font-size: 18px;
-    background-color: white;
-    color: #4aaaa5;
-    width: 6%;
-    margin-top: 33px;
-    margin-right: 363px;
-    float: right;
-}
+
 #full{
     border: solid #dddddd;
     background-color: white;
