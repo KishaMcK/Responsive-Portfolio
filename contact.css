@@ -2,6 +2,9 @@
     margin: auto;
     box-sizing: border-box;
 }
+.wrapper{
+    width: 100%;
+}
 body {
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 24px;
@@ -30,10 +33,10 @@ header{
 #links{
     font-size: 18px;
     background-color: white;
-    border-right: solid rgb(199, 198, 198);
     color: #4aaaa5;
-    width: 40%;
-    margin-top: 33px;
+    width: 25%;
+    margin-right: 250px;
+    margin-top: 30px;
     float: right;
 }
 
@@ -90,4 +93,21 @@ a{
 a:hover {
     text-decoration: underline;
     color: rgb(6, 139, 139); 
+}
+@media screen and (max-width:980px) {
+
+}
+@media screen and (max-width:768) {
+
+}
+@media screen and (max-width:640) {
+    #name{
+        background-color: #4aaaa5;
+        color: white;
+        font-size: 40px;
+        height: 110px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
 }
